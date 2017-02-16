@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,11 +12,9 @@
 
     <link rel="icon" type="image/png" href="img/favicon.png">
     
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bh.css" rel="stylesheet">
-
     <!-- FontAwesome -->
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
@@ -30,88 +27,48 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <!-- Navigation -->
+    <!-- ~=~Header Navigation~=~ -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-terminal fa-lg"></i>  <span class="light">Ben</span> Hu
+                    <div class="nav-text"><span class="light"> ben </span> hu</div>
                 </a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <div class="navbar-right">
                 <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <!--
-                    <li>
-                        <a id="aboutnav"  class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a id="projectsnav"  class="page-scroll" href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a id="blognav" href="./blog.html">Blog</a>
-                    </li>
-                    -->
-                    <!--
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                    -->
+                    <div class="nav-container">
+                    <li><a id="aboutnav"  class="page-scroll nav-text" href="#about"><div class="nav-text">about</div></a></li>
+                    <li><a id="projectsnav"  class="page-scroll nav-text" href="#projects"><div class="nav-text">projects</div></a></li>  
+                    <li><a id="miscellanynav" class="page-scroll nav-text" href="#misc"><div class="nav-text">miscellany</div></a></li>  
+                    <li><a id="contactnav" class="page-scroll nav-text" href="#contact"><div class="nav-text">contact</div></a></li> 
+                    </div>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
     </nav>
+    
 
-    <!-- Intro Header -->
+    <!-- ~=~Intro Header~=~ -->
     <header class="intro">
-        <div class="intro-body">
+        <div id="intro" class="intro-body">
             <div class="container">
                 <div class="row">
                     <div id="introsquare" class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Ben Hu</h1>
-                        <!-- <p class="intro-text">Heya. I'm currently a student at the University of Toronto working towards a specialist in computer science.</p> -->
-                        <!-- <h3>Student, Developer, Something or other</h3>-->
-			<h3></h3>
+                        <h1 class="brand-heading">ben hu</h1>
                         <ul class="list-inline banner-social-buttons">
                             <li>
-                                <a href="https://github.com/Ben-Hu" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                                <a href="https://github.com/Ben-Hu" class="btn btn-default btn-lg">
+                                <i class="fa fa-github fa-fw"></i>
+                                <span class="network-name">Github</span></a>
                             </li>
                             <li>
-                                <a href="https://linkedin.com/in/benjhu" class="btn btn-default btn-lg"><i class="fa fa-linkedin-square fa-fw"></i><span class="network-name"></span>Linkedin</a>
-                            </li>
-                            <li>
-                                <a href="mailto:benjqh@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i><span class="network-name"></span>Email</a>
-                            </li>
-                            <!--Note: I need to start using twitter
-                            </li>
-                                <a href="https://twitter.com/benjqh" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            <li>
-                                <a href="https://flicker.com/benjqh" class="btn btn-default btn-lg"><i class="fa fa-flickr fa-fw"></i> <span class="network-name">Flickr</span></a>
-                            </li>
-                            -->
-                        </ul>
-                        <!--
-                        <ul class="list-inline banner-social-buttons">
-                            <li>
-                                <a href="mailto:benjqh@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i><span class="network-name"></span>Email Me!</a>
-                            </li>
-                            <li>
-                                <a href="https://plus.google.com/placeholder/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                                <a href="https://linkedin.com/in/benjhu" class="btn btn-default btn-lg">
+                                <i class="fa fa-linkedin-square fa-fw"></i>
+                                <span class="network-name"></span>Linkedin</a>
                             </li>
                         </ul>
-                        -->
-                        <div class="intro-more">
+                       <div class="intro-more">
                             <a href="#about" class="btn btn-default btn-lg page-scroll">
                                 <i class="fa fa-angle-double-down animated"></i>
                             </a>
@@ -122,31 +79,124 @@
         </div>
     </header>
 
-    <!-- About Section -->
+    <!-- ~=~About Section~=~ -->
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <!-- <h2>About</h2> -->
-                <p>Hiya. I'm a student at the University of Toronto working towards a 
-                    specialist in computer science. Feel free to contact me if you want to get in touch!
+                <h2>about this</h2>
+                <p>Hiya. I'm Ben, a student currently at the University of Toronto finishing up a 
+                    specialist in Computer Science. Take a leisurely scroll through the site and get to know a little bit more about me. 
                 </p>
+                <div class="intro-more">
+                    <a href="#projects" class="btn btn-default btn-lg page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
+            </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- ~=~Projects Section~=~ -->
     <!-- 
                 TODO: PROJECTS [projects.html]
-    <section id="projects" class="content-section text-center">
-    </section>
+                //Current Projects - Working on a game with a fantastic group - latest builds can be found at -- always looking for feedback!
     -->
+    <section id="projects" class="content-section text-center">
+            <h2>things i have worked on</h2>
+            <div class="row">
+                <div class="col-md-8 col-lg-offset-2">
+                    <p>Here are some of the different projects I've worked on in the past and that am currently working on.</p>
+                </div>
+            </div>
+            <ul class="list-inline banner-social-buttons">
+                <li>
+                    <a href="https://c-programming.onlinelearning.utoronto.ca/index.shtml" class="btn btn-default btn-lg">
+                    <i class="fa fa-play-circle-o fa-fw"></i>
+                    <span class="network-name">CSC209 Educational Content</span></a>
+                </li>
+                <li>
+                    <a href="https://mcs.utm.utoronto.ca/~pcrs/computer_org/index.shtml" class="btn btn-default btn-lg">
+                    <i class="fa fa-video-camera  fa-fw"></i>
+                    <span class="network-name">CSC258 Educational Content</span></a>
+                </li>
+            </ul>
+            <ul class="list-inline banner-social-buttons">
+                <li>
+                    <a href="http://github.com/Ben-Hu/Kitti-Vision-Benchmark-Project" class="btn btn-default btn-lg">
+                    <i class="fa fa-car  fa-fw"></i>
+                    <span class="network-name">Car & Object Recognition</span></a>
+                </li>
+                <!--
+                <li>
+                    <a class="btn btn-default btn-lg">
+                    <i class="fa fa-terminal  fa-fw"></i>
+                    <span class="network-name">Terminal Velocity</span></a>
+                </li> -->
+            </ul>
+           <div class="intro-more">
+                <a href="#misc" class="btn btn-default btn-lg page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
+            </div>
+    </section>
 
+    <!-- ~=~Miscellany Section~=~ -->
+    <section id="misc" class="content-section text-center">
+            <h2>miscellany</h2>
+             <div class="row">
+                <div class="col-md-8 col-lg-offset-2">
+                    <p>Outside of the realm of software development : Other stuff I like</p>
+                </div>
+            </div>
+            <ul class="list-inline banner-social-buttons">
+                <li>
+                    <a href="https://flicker.com/benjqh" class="btn btn-default btn-lg">
+                    <i class="fa fa-camera-retro fa-fw"></i>
+                    <span class="network-name">Flickr</span></a>
+                </li>
+                <li>
+                    <a href="http://last.fm/user/Cresoyt" class="btn btn-default btn-lg">
+                    <i class="fa fa-lastfm fa-fw"></i>
+                    <span class="network-name">Last.fm</span></a>
+                </li>
+            </ul>
+            <ul class="list-inline banner-social-buttons">
+                <li>
+                    <a href="http://imgur.com/a/GIlpR" class="btn btn-default btn-lg">
+                    <i class="fa fa-umbrella fa-fw"></i>
+                    <span class="network-name">Water-Cooled</span></a>
+                </li>
+            </ul>
+            <div class="intro-more">
+                <a href="#contact" class="btn btn-default btn-lg page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
+            </div>
+    </section>
+   
+    
+    <section id="contact" class="content-section text-center">
+       <h2>contact</h2>
+        <ul class="list-inline banner-social-buttons">
+            <li>
+                <a href="mailto:benjqh@gmail.com" class="btn btn-default btn-lg">
+                <i class="fa fa-envelope fa-fw"></i>
+                <span class="network-name"></span>benjqh -@- gmail.com</a>
+            </li>
+        </ul>
+        <div class="intro-more">
+            <a href="#intro" class="btn btn-default btn-lg page-scroll">
+                <i class="fa fa-angle-double-up animated"></i>
+            </a>
+        </div>
+    </section>
+    
     <footer>
         <div class="container text-center">
         </div>
     </footer>
     
-    <!-- Bootstrap Core JavaScript -->
+    <!-- ~=~Bootstrap JS~=~ -->
     <script src="js/bootstrap.min.js"></script>
 
     <script>
