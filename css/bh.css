@@ -25,10 +25,25 @@ h1, h2, h3 {
 
 p {
     font-family: Monserrat, "Helvetica Neueu", Helvetica,Arial,sans-serif;
-    margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
 }
+.center {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0;
+    left: 0;
+    text-align: center;
+    border: 0px solid #fff;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+
 
 @media(min-width:768px) {
     p {
@@ -52,8 +67,26 @@ a:hover, a:1pxocus {
     color: #666
 }
 
+br {
+  margin:2.5em 0;/* FF for instance */
+  line-height:5em;/* chrome for instance */
+}
+
 .light {
     font-weight: 400;
+}
+
+.self-image {
+    display:inline;
+    /* height: 2em; 
+    width: 2em; */
+    vertical-align: middle;
+    align="middle";
+    margin-bottom: 20px;
+}
+
+.nav-name {
+    margin-top: 50px;
 }
 
 .nav-text:hover,
@@ -62,17 +95,22 @@ a:hover, a:1pxocus {
     text-decoration: none;
 }
 
-.nav-container,
+.nav-container {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
 .nav-container:hover,
 .nav-container:focus, {
     text-decoration: none;
 }
 .navbar-custom {
     margin-bottom: 2px;
-    border-bottom: 0px solid rgba(255,255,255,1);
+    border-bottom: 0px solid rgba(255,255,255,0);
     text-transform: default;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
+    background-color: rgb(255,255,255,0);
 }
 
 .navbar-custom .navbar-brand {
@@ -106,7 +144,7 @@ a:hover, a:1pxocus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
+    color: rgba(255,255,255,0);
     background-color: transparent;
 }
 
@@ -133,7 +171,7 @@ a:hover, a:1pxocus {
         padding: 20px 0;
         border-bottom: 1;
         letter-spacing: 1px;
-        background: 0 0;
+        background: rgba(125,125,125,0);
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
