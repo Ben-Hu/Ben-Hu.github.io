@@ -92,6 +92,10 @@ br {
 
 
 /* NAV */
+.nav-text {
+    pointer-events: auto;
+}
+
 .nav-text:hover,
 .nav-text:focus {
     color: rgba(75,75,75,1);
@@ -112,7 +116,9 @@ br {
 .nav-container:focus, {
     text-decoration: none;
 }
+
 .navbar-custom {
+    pointer-events: none;
     margin-bottom: 2px;
     border-bottom: 0px solid rgba(255,255,255,0);
     text-transform: default;
