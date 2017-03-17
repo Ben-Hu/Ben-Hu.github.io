@@ -8,10 +8,22 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color: rgba(119,119,119,1);
+    background-color: rgba(105,160,235,1);
 }
 
-h1, h2, h3 {
+h1 {
+    margin: 0 0 35px;
+    text-transform: default;
+    /* font-family: Abel; */
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;    
+    font-weight: 700; 
+    letter-spacing: 1px;
+    color: #fff;
+    /* text-shadow: -0.8px 0 #aaa, 0 0.8px #aaa, 0.8px 0 #aaa, 0 -0.8px #aaa; */
+    /* text-shadow: -2px 0 #000, 0 3px #000, 3px 0 #000, 0 -3px #000; */
+}
+
+h2, h3 {
     margin: 0 0 35px;
     text-transform: default;
     /* font-family: Abel; */
@@ -88,6 +100,8 @@ br {
     vertical-align: middle;
     align="middle";
     margin-bottom: 20px;
+    border: 20px;
+    border-color: #000);
 }
 
 
@@ -184,7 +198,7 @@ br {
         padding: 20px 0;
         border-bottom: 1;
         letter-spacing: 1px;
-        background: rgba(119,119,119,0);
+        background: rgba(105,160,235,0);
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -238,7 +252,7 @@ br {
         bottom
         center
         scroll;
-    background-color: rgba(119,119,119,0.0);
+    background-color: rgba(105,160,235,0.0);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
