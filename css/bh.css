@@ -27,6 +27,7 @@ h2 {
     margin: 0 0 0 0;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;    
     font-weight: 5; 
+    /*font-size: 35px; */
     color: rgba(255,255,255,1);
 }
 
@@ -34,6 +35,7 @@ h3 {
     margin: 0 0 0 0;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;    
     font-weight: 2; 
+    /*font-size: 25px;*/
     color: rgba(205,205,205,1);
 }
 
@@ -79,11 +81,11 @@ a {
     transition: all .2s ease-in-out;
 }
 
-a:hover, a:1pxocus {
+a:hover, a:focus {
     text-decoration: none;
     /* color: #1d9b6c; */
     /* color: #0af */
-    color: #666
+    color: rgba(100,100,100,1);
 }
 
 br {
@@ -114,7 +116,7 @@ br {
 
 .nav-text:hover,
 .nav-text:focus {
-    color: rgba(75,75,75,1);
+    color: rgba(100,100,100,1);
     text-decoration: none;
 }
 
