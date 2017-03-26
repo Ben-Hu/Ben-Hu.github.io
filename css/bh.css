@@ -23,16 +23,18 @@ h1 {
     /* text-shadow: -2px 0 #000, 0 3px #000, 3px 0 #000, 0 -3px #000; */
 }
 
-h2, h3 {
-    margin: 0 0 35px;
-    text-transform: default;
-    /* font-family: Abel; */
+h2 {
+    margin: 0 0 0 0;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;    
-    font-weight: 700; 
-    letter-spacing: 1px;
-    color: #fff;
-    /* text-shadow: -0.8px 0 #aaa, 0 0.8px #aaa, 0.8px 0 #aaa, 0 -0.8px #aaa; */
-    /* text-shadow: -2px 0 #000, 0 3px #000, 3px 0 #000, 0 -3px #000; */
+    font-weight: 5; 
+    color: rgba(255,255,255,1);
+}
+
+h3 {
+    margin: 0 0 0 0;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;    
+    font-weight: 2; 
+    color: rgba(205,205,205,1);
 }
 
 p {
@@ -78,7 +80,7 @@ a {
 }
 
 a:hover, a:1pxocus {
-    text-de0coration: none;
+    text-decoration: none;
     /* color: #1d9b6c; */
     /* color: #0af */
     color: #666
@@ -316,7 +318,7 @@ footer p {
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;ss
+    transition: all .3s ease-in-out;
 }
 
 .btn-default {
@@ -329,10 +331,10 @@ footer p {
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 3px rgba(100,100,100,1);
+    border: 3px solid rgba(100,100,100,1);
     outline: 0;
     color: rgba(100,100,100,1);
-    background-color: #ffff;
+    background-color: rgba(175,175,175,1);
 }
 
 ul.banner-social-buttons {
